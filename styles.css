@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: wheat;
+}
+
+header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.my-photos {
+    height: 300px;
+    width: 300px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+section#main .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    font-size: 24px;
+    font-weight: normal;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.images img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.5);
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+footer .social-links a {
+    color: lightblue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.go-up a {
+    color: blue;
+    align-items: end;
+    text-decoration: none;
+}
