@@ -1,21 +1,27 @@
+/*This is how to write comments in the cascading style sheet*/
+/*This is called a cascading style sheet. The name of this file is "styles.css"*/
+
+/*The section below defines the styling for the body of the webpage*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: wheat;
+    font-family: Arial, Helvetica, sans-serif;  /*This sets the font family to "Arial"*/
+    margin: 0;                  /*This sets the margin to 0 pixels*/
+    padding: 0;                 /*This sets the padding to 0 pixels*/
+    box-sizing: border-box;     /*This sets the box size to the border-box*/
+    background: wheat;        /*This sets the background colour to wheat*/
 }
 
+/*The section below defines the styling for the header of the webpage*/
 header {
-    background: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    align-items: center;
+    background: #333;       /*This sets the background colour of the header to slate*/
+    color: white;            /*This sets the text colour to white*/
+    display: flex;             /*This makes the header space to flexible so it adjusts to fit any screen width*/
+    justify-content: space-between; /*This inserts horizontal spacing between the header items*/
+    padding: 10px 20px;        /*This pads the top of the header with 10px and the right with 20px*/
+    align-items: center;        /*This aligns the item vertically in the center*/
 }
 
-header .logo h1 {
+/*The section below defines the styling for the heading h1 in the division */
+header #logo h1 {
     margin: 0;
     margin-left: 20px;
 }
