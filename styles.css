@@ -4,8 +4,8 @@
 /*The section below defines the styling for the body of the webpage*/
 body {
     font-family: Arial, Helvetica, sans-serif;  /*This sets the font family to "Arial"*/
-    margin: 0;                  /*This sets the margin to 0 pixels*/
-    padding: 0;                 /*This sets the padding to 0 pixels*/
+    margin: 0;                  /*This sets the margin to 0 px (pixels)*/
+    padding: 0;                 /*This sets the padding to 0 px (pixels)*/
     box-sizing: border-box;     /*This sets the box size to the border-box*/
     background: wheat;        /*This sets the background colour to wheat*/
 }
@@ -16,49 +16,56 @@ header {
     color: white;            /*This sets the text colour to white*/
     display: flex;             /*This makes the header space to flexible so it adjusts to fit any screen width*/
     justify-content: space-between; /*This inserts horizontal spacing between the header items*/
-    padding: 10px 20px;        /*This pads the top of the header with 10px and the right with 20px*/
+    padding: 10px 20px;        /*This pads the top of the header with 10 px (pixels) and the right with 20 px (pixels)*/
     align-items: center;        /*This aligns the item vertically in the center*/
 }
 
 /*The section below defines the styling for the heading h1 in the division */
 header #logo h1 {
-    margin: 0;
-    margin-left: 20px;
+    margin: 0;              /*This sets the top margin of the heading logo to 0 px (pixels)*/
+    margin-left: 20px;      /*This sets the left margin of the heading logo to 20 px (pixels)*/
 }
 
+/*This section below defines the styling for the menu navigation unsorted list*/
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none;       /*This removes the markers before the list items*/
+    padding: 0;             /*This sets the list items padding to 0 px (pixels)*/
 }
 
+/*This section below defines the styling of the menu list items*/
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    display: inline;        /*This displays the menu list items in a line*/
+    margin-right: 10px;     /*This sets the right margin of the list items to 10 px (pixels)*/
 }
 
+/*This section below defines the styling for the menu list items*/
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+    color: white;           /*This sets the text color to white*/
+    text-decoration: none;    /*This remove the hyperlink underline from the menu list items*/
+    margin-left: 10px;        /*This sets the left margin of the list items to 10 px (pixels)*/
 }
 
+/*This section below defines the styling for the pictures on the website*/
 .my-photos {
-    height: 300px;
-    width: 300px;
+    height: 300px;          /*This sets the picture height to 300 px (pixels)*/
+    width: 300px;           /*This sets the picture width to 300 px (pixels)*/
 }
 
+/*This section below defines the styling for the webpage sections*/
 section {
-    text-align: center;
-    padding: 20px;
-    border-bottom: 1px solid #ccc;
+    text-align: center;         /*This sets the Thtext alignment to center*/
+    padding: 20px;              /*This sets the top padding to 20 px (pixels)*/
+    border-bottom: 1px solid #ccc;      /*This sets the bottom border of the section to 1 px (pixels) wide, solid line, lightgrey color*/
 }
 
+/*This section below defines the styling of the webpage section with the id called "main" and class called "content"*/
 section#main .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;              /*This sets the display to flexible so it adapts to screen size*/
+    justify-content: center;    /*This sets the horizontal alignment of the pictures to center*/
+    align-items: center;        /*This sets the vertical alignment of the pictures to center*/
 }
 
+/**/
 .intro-text {
     font-size: 24px;
     font-weight: normal;
