@@ -1,7 +1,7 @@
 /*This is how to write comments in the cascading style sheet*/
 /*This is called a cascading style sheet. The name of this file is "styles.css"*/
 
-/*The section below defines the styling for the body of the webpage*/
+/*The code below defines the styling for the body of the webpage*/
 body {
     font-family: Arial, Helvetica, sans-serif;  /*This sets the font family to "Arial"*/
     margin: 0;                  /*This sets the margin to 0 px (pixels)*/
@@ -10,115 +10,123 @@ body {
     background: wheat;        /*This sets the background colour to wheat*/
 }
 
-/*The section below defines the styling for the header of the webpage*/
+/*The code below defines the styling for the header of the webpage*/
 header {
     background: #333;       /*This sets the background colour of the header to slate*/
     color: white;            /*This sets the text colour to white*/
     display: flex;             /*This makes the header space to flexible so it adjusts to fit any screen width*/
     justify-content: space-between; /*This inserts horizontal spacing between the header items*/
     padding: 10px 20px;        /*This pads the top of the header with 10 px (pixels) and the right with 20 px (pixels)*/
-    align-items: center;        /*This aligns the item vertically in the center*/
+    align-items: center;       /*This aligns the item vertically in the center*/
 }
 
-/*The section below defines the styling for the heading h1 in the division */
+/*The code below defines the styling for the heading h1 in the division */
 header #logo h1 {
     margin: 0;              /*This sets the top margin of the heading logo to 0 px (pixels)*/
     margin-left: 20px;      /*This sets the left margin of the heading logo to 20 px (pixels)*/
 }
 
-/*This section below defines the styling for the menu navigation unsorted list*/
+/*The code below defines the styling for the menu navigation unsorted list*/
 nav ul {
     list-style: none;       /*This removes the markers before the list items*/
     padding: 0;             /*This sets the list items padding to 0 px (pixels)*/
 }
 
-/*This section below defines the styling of the menu list items*/
+/*The code below defines the styling of the menu list items*/
 nav ul li {
     display: inline;        /*This displays the menu list items in a line*/
     margin-right: 10px;     /*This sets the right margin of the list items to 10 px (pixels)*/
 }
 
-/*This section below defines the styling for the menu list items*/
+/*The code below defines the styling for the menu list items*/
 nav ul li a {
     color: white;           /*This sets the text color to white*/
     text-decoration: none;    /*This remove the hyperlink underline from the menu list items*/
     margin-left: 10px;        /*This sets the left margin of the list items to 10 px (pixels)*/
 }
 
-/*This section below defines the styling for the pictures on the website*/
+/*The code below defines the styling for the pictures on the website*/
 .my-photos {
     height: 300px;          /*This sets the picture height to 300 px (pixels)*/
     width: 300px;           /*This sets the picture width to 300 px (pixels)*/
 }
 
-/*This section below defines the styling for the webpage sections*/
+/*The code below defines the styling for the webpage sections*/
 section {
     text-align: center;         /*This sets the Thtext alignment to center*/
     padding: 20px;              /*This sets the top padding to 20 px (pixels)*/
     border-bottom: 1px solid #ccc;      /*This sets the bottom border of the section to 1 px (pixels) wide, solid line, lightgrey color*/
 }
 
-/*This section below defines the styling of the webpage section with the id called "main" and class called "content"*/
+/*The code below defines the styling of the webpage section with the id called "main" and class called "content"*/
 section#main .content {
     display: flex;              /*This sets the display to flexible so it adapts to screen size*/
     justify-content: center;    /*This sets the horizontal alignment of the pictures to center*/
     align-items: center;        /*This sets the vertical alignment of the pictures to center*/
 }
 
-/**/
+/*The code below defines the styling of the introduction text with the class called "intro-text"*/
 .intro-text {
-    font-size: 24px;
-    font-weight: normal;
-    margin-right: 20px;
-    text-align: left;
+    font-size: 24px;            /*This sets the size of the introduction text font to 24 px (pixels)*/
+    font-weight: normal;        /*This sets the weight of the introduction text font to normal*/
+    margin-right: 20px;         /*This sets the right margin of the introduction text to 20 px (pixels)*/
+    text-align: left;           /*This aligns the introduction text to the left*/
 }
 
+/*The code below defines the pictures in the gallery section of the webpage*/
 .images img {
-    height: 200px;
-    width: 200px;
-    padding: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+    height: 200px;              /*This sets the height of the gallery pictures to 200 px (pixels)*/
+    width: 200px;               /*This sets the width of the gallery pictures to 200 px (pixels)*/
+    padding: 10px;              /*This sets the top padding of the gallery picture to 10 px (pixels)*/
+    cursor: pointer;            /*This sets the picture cursor to pointer*/
+    transition: transform 0.3s ease;        /*This sets the picture transition to a 0.3 seconds ease transform*/
 }
 
+/*The code below defines what happens when the mouse hovers over the gallery picture*/
 .images img:hover {
-    transform: scale(1.5);
+    transform: scale(1.5);      /*This sets the picture scaling to increase it's size 150%*/
 }
 
+/*The code below defines the styling for the section with the class called "project"*/
 .project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex;              /*This sets the display to flexible so it adapts to screen size*/
+    justify-content: center;    /*This sets the horizontal alignment of the pictures to center*/
+    align-items: center;        /*This sets the vertical alignment of the pictures to center*/
+    margin-bottom: 20px;        /*This sets the bottom margin of the section to 20 px (pixels)*/
 }
 
+/*The code below defines the styling for the pictures in the section of the webpage*/
 .project img {
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
-    transition: transform 0.3s ease;
+    width: 300px;               /*This sets the width of the project picture to 300 px (pixels)*/
+    height: 300px;              /*This sets the height of the project picture to 300 px (pixels)*/
+    margin-right: 20px;         /*This sets the right margin of the section to 20 px (pixels)*/
+    transition: transform 0.3s ease;        /*This sets the picture transition to a 0.3 seconds ease transform*/
 }
 
+/*The code below defines what happens when the mouse hovers over the project picture*/
 .project img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1);      /*This sets the picture scaling to increase it's size 110%*/
 }
 
+/*The code below defines the styling for the footer section of the webpage*/
 footer {
-    background: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
+    background: #333;         /*This sets the background colour to slate */
+    color: white;             /*This sets the text colour to white*/
+    display: flex;              /*This makes the footer space to flexible so it adjusts to fit any screen width*/
+    justify-content: space-between; /*This inserts horizontal spacing between the header items*/
+    padding: 10px 20px;         /*This pads the top of the footer with 10 px (pixels) and the right with 20 px (pixels)*/
 }
 
+/*The code below defines the styling for the menu options in the future*/
 footer .social-links a {
-    color: lightblue;
-    text-decoration: none;
-    margin-right: 10px;
+    color: lightblue;        /*This set the text colour to lightblue*/
+    text-decoration: none;     /*This removes the underline from the menu options*/
+    margin-right: 10px;        /*This sets the right margin of the menu options to 10 px (pixels)*/
 }
 
+/*The code below defines the styling for the link that send the use to the top of the webpage*/
 .go-up a {
-    color: blue;
-    align-items: end;
-    text-decoration: none;
+    color: blue;            /*This sets the text colour to blue*/
+    align-items: end;         /*This aligns the text to the end of the text box*/
+    text-decoration: none;    /*This removes the undeline from the link*/
 }
